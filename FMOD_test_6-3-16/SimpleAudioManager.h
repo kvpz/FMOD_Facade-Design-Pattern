@@ -3,8 +3,12 @@
 	for Game Development
 
 	This class is a wrapper for the underlying FMOD system. This abstraction
-	is called facade design pattern, i.e. only exposing the operations that
+	is called "facade design pattern", i.e. only exposing the operations that
 	are needed as provided by an underlying system.
+
+	The purpose of "#pragma once" is to cause the current source file to 
+	inlclude the file only once in a single compilation. It works the same
+	way as #ifndef #define include guards but much safer and possibly efficient.
 
 
 */
